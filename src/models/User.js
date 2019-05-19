@@ -13,4 +13,5 @@ class User {
     Object.assign(this, data);
   }
 }
+
 export default User;

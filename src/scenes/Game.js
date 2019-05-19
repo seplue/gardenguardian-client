@@ -12,6 +12,7 @@ const Container = styled(BaseContainer)`
   text-align: center;
 `;
 
+// noinspection JSUnresolvedFunction
 const Users = styled.ul`
   list-style: none;
   padding-left: 0;

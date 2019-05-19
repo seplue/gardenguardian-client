@@ -3,6 +3,9 @@ import styled from "styled-components";
 import { Redirect, Route } from "react-router-dom";
 import Game from "../../scenes/Game";
 
+// noinspection JSUnresolvedFunction
+// noinspection JSUnresolvedFunction
+// noinspection JSUnresolvedFunction
 const Container = styled.div`
   display: flex;
   flex-direction: column;
