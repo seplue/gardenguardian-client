@@ -12,6 +12,7 @@ const Container = styled(BaseContainer)`
   text-align: center;
 `;
 
+// noinspection JSUnresolvedFunction
 const Users = styled.ul`
   list-style: none;
   padding-left: 0;
@@ -25,8 +26,8 @@ const PlayerContainer = styled.li`
 `;
 
 class Game extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       users: null
     };
