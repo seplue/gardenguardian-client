@@ -65,7 +65,7 @@ class Measurements extends React.Component {
   render() {
     return (
       <Container>
-          getLatestMeasurements()
+          TEST
 
       </Container>
     );

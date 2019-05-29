@@ -1,13 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router} from "react-router-dom";
+import AppRouter from "./routing/routers/AppRouter";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
         <div>
-          <Header height={"100"} />
           <AppRouter />
         </div>
     );

@@ -4,7 +4,7 @@ import { BaseContainer } from "../helpers/layout";
 import { getDomain } from "../helpers/getDomain";
 import User from "../models/User";
 import { withRouter } from "react-router-dom";
-import { Button } from "../components/Button";
+import { Button } from "../components/design/Button";
 
 const FormContainer = styled.div`
   margin-top: 2em;

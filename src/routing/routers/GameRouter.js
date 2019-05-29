@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Redirect, Route } from "react-router-dom";
-import Game from "../../scenes/Game";
 
 // noinspection JSUnresolvedFunction
 // noinspection JSUnresolvedFunction
@@ -18,11 +17,7 @@ class GameRouter extends React.Component {
      */
     return (
       <Container>
-        <Route
-          exact
-          path={`${this.props.base}/dashboard`}
-          render={() => <Game />}
-        />
+
 
         <Route
           exact
