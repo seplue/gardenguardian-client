@@ -1,15 +1,15 @@
 <component name="InspectionProjectProfileManager">
   <settings>
-    <info color="100be">
-      <option name="BACKGROUND" value="f4fdff" />
+    <info color="0">
+      <option name="FOREGROUND" value="300ff" />
       <option name="EFFECT_COLOR" value="292929" />
-      <option name="ERROR_STRIPE_COLOR" value="100be" />
+      <option name="ERROR_STRIPE_COLOR" value="0" />
       <option name="EFFECT_TYPE" value="1" />
       <option name="myName" value="asd" />
       <option name="myVal" value="50" />
       <option name="myExternalName" value="asd" />
       <option name="myDefaultAttributes">
-        <option name="ERROR_STRIPE_COLOR" value="100be" />
+        <option name="ERROR_STRIPE_COLOR" value="0" />
       </option>
     </info>
     <list size="8">
