@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1723a1c-ee99-4116-92b2-8829395971f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/getDomain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/getDomain.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/Measurements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/Measurements.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -34,11 +35,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scenes/Measurements.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            <state relative-caret-position="253">
+              <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="n#!!block;n#componentDidMount#0;n#Measurements#0" />
               </folding>
             </state>
           </provider>
@@ -216,6 +216,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -281,12 +282,12 @@
       <workItem from="1558237821675" duration="3130000" />
       <workItem from="1558918016253" duration="663000" />
       <workItem from="1559224810542" duration="796000" />
-      <workItem from="1559227845820" duration="3745000" />
+      <workItem from="1559227845820" duration="4422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21917000" />
+    <option name="totallyTimeSpent" value="22594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,13 +302,14 @@
     <frame x="-8" y="0" width="977" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3088392" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3088392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3284091" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3284091" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,11 +443,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scenes/Measurements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        <state relative-caret-position="253">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#componentDidMount#0;n#Measurements#0" />
           </folding>
         </state>
       </provider>

@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { BaseContainer } from "../helpers/layout";
-import { getDomain } from "../helpers/getDomain";
+import {BaseContainer} from "../helpers/layout";
+import {getDomain} from "../helpers/getDomain";
 import User from "../models/User";
-import { withRouter } from "react-router-dom";
+import {withRouter} from "react-router-dom";
 import {Button} from "../components/design/Button"
 import {Spinner} from "../components/design/Spinner"
-
 
 
 const Container = styled(BaseContainer)`
@@ -28,8 +27,8 @@ const PlayerContainer = styled.li`
   justify-content: center;
 `;
 
-class Measurements extends React.Component {
-    constructor(props) {
+class Measurements extends React.Component{
+    constructor(props){
         super(props);
         this.state = {
             users: null
@@ -37,8 +36,7 @@ class Measurements extends React.Component {
     }
 
 
-
-    componentDidMount() {
+    componentDidMount(){
         this.getLatestMeasuremaents()
 
 
@@ -62,7 +60,7 @@ class Measurements extends React.Component {
             });
     }
 
-    render() {
+    render(){
         return (
             <Container>
                 TEST
