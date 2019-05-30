@@ -29,20 +29,20 @@ const PlayerContainer = styled.li`
 `;
 
 class Measurements extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      users: null
-    };
-  }
+    constructor(props) {
+        super(props);
+        this.state = {
+            users: null
+        };
+    }
 
 
 
-  componentDidMount() {
-      this.getLatestMeasuremaents()
+    componentDidMount() {
+        this.getLatestMeasuremaents()
 
 
-  }
+    }
 
     getLatestMeasuremaents(){
         //Fetch the updated board state
@@ -62,14 +62,14 @@ class Measurements extends React.Component {
             });
     }
 
-  render() {
-    return (
-      <Container>
-          TEST
+    render() {
+        return (
+            <Container>
+                TEST
 
-      </Container>
-    );
-  }
+            </Container>
+        );
+    }
 }
 
 export default withRouter(Measurements);
