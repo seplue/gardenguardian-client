@@ -46,7 +46,7 @@ class Measurements extends React.Component {
 
     getLatestMeasuremaents(){
         //Fetch the updated board state
-        fetch(`${getDomain()}/test_latest}`, {
+        fetch(`${getDomain()}/test_latest`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -54,7 +54,7 @@ class Measurements extends React.Component {
         })
             .then(response => response.json())
             .then(response => {
-                console.log(response.json())
+                console.log(response)
             })
             .catch(err => {
                 console.log(err);
