@@ -43,19 +43,23 @@ class Measurements extends React.Component{
     }
 
     getLatestMeasuremaents(){
-        //Fetch the updated board state
+        //Fetch the latest measurements of the test station
         fetch(`${getDomain()}/test_latest`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
             }
         })
+            //after the request has been answered, do the following
             .then(response => response.json())
             .then(response => {
                 console.log(response)
             })
+            // catch error
             .catch(err => {
+                // log error
                 console.log(err);
+                // make an alert with the error
                 alert("Something went wrong with getting measurements: " + err);
             });
     }
