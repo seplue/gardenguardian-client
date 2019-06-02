@@ -27,19 +27,51 @@ const PlayerContainer = styled.li`
   justify-content: center;
 `;
 
+
 class Measurements extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            users: null
+            //measurements: null,
+            //*/ test data
+            measurements: [
+                {
+                    "bed_name": "firstBed",
+                    "garden_name": "firstGarden",
+                    "measurement_time": "Fri May 24 00:00:30 2019",
+                    "measurement_type": "airHumidity",
+                    "measurement_value": 39.1669161370059
+                },
+                {
+                    "bed_name": "firstBed",
+                    "garden_name": "firstGarden",
+                    "measurement_time": "Fri May 24 00:00:30 2019",
+                    "measurement_type": "pressure",
+                    "measurement_value": 965.796907232234
+                },
+                {
+                    "bed_name": "firstBed",
+                    "garden_name": "firstGarden",
+                    "measurement_time": "Fri May 24 00:00:30 2019",
+                    "measurement_type": "temperature",
+                    "measurement_value": 23.9912109375
+                },
+                {
+                    "bed_name": "firstBed",
+                    "garden_name": "firstGarden",
+                    "measurement_time": "Fri May 24 00:00:31 2019",
+                    "measurement_type": "dewPoint",
+                    "measurement_value": 11.9723417171296
+                }
+            ]//*/
         };
+
+
     }
 
 
     componentDidMount(){
-        this.getLatestMeasuremaents()
-
-
+        this.getLatestMeasuremaents();
     }
 
     getLatestMeasuremaents(){
@@ -53,7 +85,8 @@ class Measurements extends React.Component{
             //after the request has been answered, do the following
             .then(response => response.json())
             .then(response => {
-                console.log(response)
+                this.setState({measurements: response});
+                console.log(this.state.measurements)
             })
             // catch error
             .catch(err => {
@@ -65,9 +98,27 @@ class Measurements extends React.Component{
     }
 
     render(){
+        console.log(this.state.measurements);
+        let listItems;
+        if(this.state.measurements){
+            listItems = this.state.measurements.map((number) =>
+                <p>
+                    {number.measurement_time}<br/>
+                    {number.measurement_type}<br/>
+                    {number.measurement_value}<br/>
+                    {number.bed_name}<br/>
+                    {number.garden_name}<br/>
+                </p>
+            );
+        }
         return (
             <Container>
                 TEST
+                {!this.state.measurements ? (
+                    <Spinner />
+                ) : (
+                    {listItems}
+                )}
 
             </Container>
         );
